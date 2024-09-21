@@ -2,8 +2,8 @@
 
 It is Django REST framework API endpoint for managing "Notes". The UI appears to be from the Django REST framework's automatically generated browsable API view.
 
-Endpoint for GET all the datas: /notes
-Endpoint for GET perticular datas: /notes/<slug:slug> (" If we choose perticular data it help us to delete and update the datas")
+Endpoint for GET all the datas: /notes,
+Endpoint for GET perticular datas: /notes/<slug:slug> (" If we choose perticular data it help us to delete and update the datas"),
 Endpoint for serch perticular datas with titles: /notes-search/?search=(title) (e.g /notes-search/?search=weekly) it will take you to the data that contain a title weekly
 
 It supports GET, POST, PUT,DELETE methods.
